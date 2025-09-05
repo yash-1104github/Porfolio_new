@@ -36,7 +36,7 @@ const ExperienceSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gradient mb-4">
             Work Experience
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
             My professional journey and the impact I've made
           </p>
         </div>
@@ -48,12 +48,12 @@ const ExperienceSection = () => {
               className="glass border-glass-border/30 hover:border-primary/50 transition-all duration-300 hover:shadow-elegant"
             >
               <CardHeader>
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <div className="flex flex-col md:flex-row   text-justify md:items-center justify-around  md:justify-between gap-4">
                   <div>
-                    <CardTitle className="text-2xl text-primary mb-2">
+                    <CardTitle className="text-xl md:text-2xl text-primary mb-2">
                       {exp.company}
                     </CardTitle>
-                    <CardDescription className="text-lg font-semibold text-foreground">
+                    <CardDescription className="text-lg font-semibold flex-1 text-foreground">
                       {exp.role}
                     </CardDescription>
                   </div>

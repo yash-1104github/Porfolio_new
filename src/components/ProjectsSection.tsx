@@ -58,12 +58,12 @@ const ProjectsSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gradient mb-4">
             Featured Projects
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
             A showcase of my recent work and technical achievements
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8 max-w-7xl mx-auto">
           {projects.map((project, index) => (
             <ProjectCard
               key={index}

@@ -36,6 +36,8 @@ const HeroSection = () => {
     "Docker",
     "AWS",
     "Google Cloud",
+    "CI/CD",
+    "Kubernetes",
     "Render",
     "MySQL",
     "MongoDB",
@@ -45,35 +47,40 @@ const HeroSection = () => {
     "Firebase",
     "Git/GitHub",
     "Tailwind CSS",
+    "Material UI",
     "DSA(C++)",
   ];
 
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden"
+      className="min-h-screen  flex items-center justify-center relative overflow-hidden"
     >
       {/* Animated Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
+      {/* <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-pulse delay-1000" />
-      </div>
+      </div> */}
 
-      <div className="container mx-auto px-6 text-center relative z-10">
-        <div className="max-w-4xl mx-auto space-y-8">
+      <div className="flex w-screen  md:mt-16 md:mx-auto md:px-6 text-center relative z-10">
+       
+        <div className="w-full md:max-w-6xl   mx-auto space-y-8  my-16 md:my-16 lg:my-6">
+        
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight">
+          <h1 className="hidden md:flex justify-center text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight">
             <span className="text-gradient">YASH GUPTA</span>
           </h1>
 
           {/* Typing Animation */}
-          <div className="text-xl md:text-2xl lg:text-3xl">
+          <div className="mt-40 md:mt-12 lg:mt-0  text-2xl lg:text-3xl">
             <TypingAnimation />
           </div>
 
           {/* Description */}
-          <div className="max-w-4xl mx-auto space-y-6">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed  px-4 font-normal text-pretty">
+          <div className="max-w-6xl mx-auto space-y-6 ">
+          
+            <div className="text-base md:text-xl text-muted-foreground leading-normal md:leading-relaxed flex-1 justify-around  text-justify px-4 font-normal">
+              
               I am a B.Tech Graduate in Computer Science and Engineering with{" "}
               <span className="text-black font-semibold">6</span> months of
               experience as a Software Developer, have experience working in
@@ -88,11 +95,12 @@ const HeroSection = () => {
               Linux and Windows. Available to join immediately. I am eager to
               apply my technical skills to create impactful solutions and grow
               as a software developer.
-            </p>
+            </div>
+        
           </div>
 
           {/* Technologies */}
-          <div className="flex flex-wrap gap-3 py-4 justify-center max-w-5xl mx-auto">
+          <div className="flex flex-wrap gap-2 md:gap-3 py-4 justify-center md:max-w-5xl md:mx-auto">
             {technologies.map((tech, index) => (
               <span
                 key={index}
@@ -130,7 +138,7 @@ const HeroSection = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 ">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8  px-6 md:px-0">
             <Button
               size="lg"
               className="  transition-all duration-300 text-lg px-8 py-6"

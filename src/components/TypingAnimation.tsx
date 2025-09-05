@@ -42,7 +42,7 @@ function TypingAnimation() {
   }, [charIndex, isTyping, textIndex]);
 
   return (
-    <div className="text-gradient font-mono text-lg md:text-xl lg:text-2xl font-semibold">
+    <div className="text-gradient font-mono text-xl lg:text-2xl font-semibold">
         {text}
         <span className="animate-pulse text-primary">|</span>
     </div>
