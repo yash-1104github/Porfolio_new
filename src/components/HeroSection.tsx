@@ -138,7 +138,7 @@ const HeroSection = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8  px-6 md:px-0">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8  px-6 md:px-0">
             <Button
               size="lg"
               className="  transition-all duration-300 text-lg px-8 py-6"
@@ -150,17 +150,21 @@ const HeroSection = () => {
             >
               View My Work
             </Button>
+            
             <Button
               variant="outline"
               size="lg"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-lg px-8 py-6"
-              onClick={() =>
-                document
-                  .getElementById("contact")
-                  ?.scrollIntoView({ behavior: "smooth" })
-              }
+              // className="border text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-lg px-8 py-6"
+              className="border-primary/30 text-primary px-8 text-lg font-medium  py-6 hover:border-primary hover:bg-primary/10 hover:scale-110 transition-all duration-300"
+               asChild
             >
-              Get In Touch
+               <a
+                href="https://drive.google.com/file/d/1rl3Py3tmiPsy35LGINg22jxXr6nYyx8_/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
             </Button>
           </div>
         </div>

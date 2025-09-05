@@ -29,8 +29,8 @@ const ContactSection = () => {
   const contactInfo = [
     {
       icon: MapPin,
-      title: "Location",
-      details: "Ghandi Chowk Fatehabad, Agra, Uttar Pradesh 283111",
+      title: "Home Town",
+      details: "Fatehabad, Agra, Uttar Pradesh 283111",
     },
     {
       icon: Phone,
@@ -87,7 +87,7 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="max-w-78xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 -mt-6 md:mt-0">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 -mt-6 md:mt-0">
           {/* Contact Information */}
          
           <div className="space-y-8">
@@ -98,11 +98,12 @@ const ContactSection = () => {
                   <Mail className="text-primary" />
                   Let's Connect
                 </CardTitle>
-                <CardDescription className="text-lg">
+                <CardDescription className="text-base">
                   I'm always excited to discuss new opportunities, innovative
                   projects, or just chat about technology and development.
                 </CardDescription>
               </CardHeader>
+             
               <CardContent className="space-y-6">
                 {contactInfo.map((info, index) => {
                   const Icon = info.icon;
@@ -121,7 +122,7 @@ const ContactSection = () => {
                   );
                 })}
 
-                <div className="grid grid-cols-2 md:grid-cols-3 pt-8 gap-2 -ml-3 ">
+                <div className="grid grid-cols-2 md:px-6 md:grid-cols-1 pt-8 gap-2 -ml-3 ">
                   {socialLinks.map((social, index) => {
                     const Icon = social.icon;
                     return (

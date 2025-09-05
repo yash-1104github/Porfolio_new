@@ -117,20 +117,6 @@ const Navigation = () => {
             >
               Contact
             </button>
-            <Button 
-              variant="outline" 
-              size="sm"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground w-fit"
-              asChild
-            >
-              <a
-                href="https://drive.google.com/file/d/1rl3Py3tmiPsy35LGINg22jxXr6nYyx8_/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Resume
-              </a>
-            </Button>
           </div>
         </div>
       )}
