@@ -10,9 +10,9 @@ const ExperienceSection = () => {
       duration: "May 2025 - September 2025",
       location: "Remote",
       achievements: [
-        "Developed static pages for the company's new website, enhancing UI/UX and page responsiveness, and integrated TanStack Query to enable server-side rendering, improving data fetching efficiency by 30%.",
-        "Enhanced Single-sheet functionality in product dashboard, implement real-time API data comparison, integrated warnings and error checking features reducing the data entry team workflow by 25%.",
-        "Automated product availability checks in procurement dashboard, eliminating manual data entry which improved team efficiency by 35%.",
+        "Developed static pages for the company, enhancing UI/UX and page responsiveness integrated TanStack Query to enable server-side rendering, decreasing load time from 7 sec to 2 sec",
+        "Enhanced product dashboard, improved data comparison functionality showing warnings, updated values errors reducing data entry team workflow time by 55% through automation of different checks.",
+        "Upgraded product availability checks in procurement dashboard, eliminating need for manual selecting the vendors and warehouse automate this process though functions lead to faster process by 40%",
         "Implemented authentication to secure APIs, Built multi user role based server-client forms for Customer, Sales, Retailer. Worked in React.js, Next.js, TanStack Query, TypeScript, Node.js, REST APIs, Tailwind CSS."
       ]
     },

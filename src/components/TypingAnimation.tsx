@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 function TypingAnimation() {
-  const textArray = [" Full Stack Developer", " Frontend Developer", " Backend Developer"," Software Developer",  " Competitve Programmar", " Open Source Contributor" ];  
+  const textArray = [" Software Developer", " Frontend Developer", " Backend Developer", "DevOps Developer",  " Competitve Programmar", " Open Source Contributor" ];  
   const typingSpeed = 50;  
   const erasingSpeed = 30;  
   const delayBetweenTexts = 2000;  

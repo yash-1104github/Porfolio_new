@@ -38,6 +38,8 @@ const HeroSection = () => {
     "Google Cloud",
     "CI/CD",
     "Kubernetes",
+    "Redis",
+    "WebSocket",
     "Render",
     "MySQL",
     "MongoDB",
@@ -86,15 +88,13 @@ const HeroSection = () => {
               experience as a Software Developer, have experience working in
               Agile methodology with daily stand-ups. Worked in {"  "}
               <span className="text-black font-semibold">
-                Frontend and{" "}
+                Frontend {" "}
               </span>{" "}
-              {"  "}
+              and{"  "}
               <span className="text-black font-semibold">Backend, </span> {"  "}
               <span className="text-black font-semibold">DevOps</span>{" "}
-              technologies understanding of networking and operating systems
-              Linux and Windows. Available to join immediately. I am eager to
-              apply my technical skills to create impactful solutions and grow
-              as a software developer.
+              technologies with solid understanding of networking and operating systems
+              Linux and Windows. <span className="text-black font-semibold">Open Source contributor  </span> {"  "} in organisation  <span className="text-black font-semibold">Evu </span>{" "}and <span className="text-black font-semibold">EnCiv </span>{" "}
             </div>
         
           </div>
