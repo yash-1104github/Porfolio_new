@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 const ExperienceSection = () => {
   const experiences = [
     {
-      company: "Material Depot (YC Startup 2021)",
+      company: "Material Depot (YC 2021)",
       role: "Software Developer",
       duration: "May 2025 - September 2025",
       location: "Remote",
