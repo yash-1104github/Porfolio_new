@@ -7,7 +7,7 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
-  // bg-background
+
   return (
     <div className="h-full w-full bg-background text-foreground ">
       <Navigation />
