@@ -28,8 +28,8 @@ const ContactSection = () => {
   const contactInfo = [
     {
       icon: MapPin,
-      title: "Home Town",
-      details: "Fatehabad, Agra, Uttar Pradesh 283111",
+      title: "Address",
+      details: "Agra, Uttar Pradesh 283111",
     },
     {
       icon: Phone,
@@ -118,7 +118,7 @@ const ContactSection = () => {
                   </CardDescription>
                 </CardHeader>
 
-                <CardContent className="space-y-6">
+                <CardContent className="space-y-8">
                   {contactInfo.map((info, index) => {
                     const Icon = info.icon;
                     return (
@@ -129,9 +129,9 @@ const ContactSection = () => {
                           visible: { opacity: 1, x: 0 },
                         }}
                         transition={{ duration: 0.6 }}
-                        className="flex items-start gap-4"
+                        className="flex items-start gap-4 md:mt-8"
                       >
-                        <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                        <div className="w-10 h-10 rounded-lg bg-primary/10 flex  items-center justify-center flex-shrink-0">
                           <Icon size={20} className="text-primary" />
                         </div>
                         <div>
@@ -207,9 +207,9 @@ const ContactSection = () => {
                 <form
                   ref={formRef}
                   onSubmit={handleSubmit}
-                  className="space-y-6"
+                  className="space-y-3"
                 >
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:-mt-4">
                     <div className="space-y-2">
                       <label
                         htmlFor="name"
