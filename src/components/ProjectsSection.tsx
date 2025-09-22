@@ -13,7 +13,7 @@ const ProjectsSection = () => {
     {
       title: "AI DECO",
       description:
-        "An AI-powered interior design application that helps users visualize and plan their living spaces with smart furniture suggestions and layout optimization.",
+        "An AI-powered interior design application that helps users visualize and plan their living spaces. Integrated with different design pattern and room layout",
       technologies: [
         "JavaScript",
         "Tailwind CSS",
@@ -31,7 +31,7 @@ const ProjectsSection = () => {
     {
       title: "Travel Buddy",
       description:
-        "AI-powered travel planning application that creates personalized itineraries based on user preferences, budget, and travel dates.",
+        "AI-powered travel planning application that creates personalized itineraries based on user preferences, budget, number of people and time",
       technologies: [
         "JavaScript",
         "React",
@@ -48,8 +48,7 @@ const ProjectsSection = () => {
     },
     {
       title: "SafeDoc AI",
-      description:
-        "Medical document analysis platform with AI-powered insights, ensuring secure and efficient healthcare data processing.",
+      description: "An application that helps users securely hide sensitive information from documents before sharing or storing them. Uses Python Model to perform Operation on Doc",
       technologies: [
         "JavaScript",
         "React",
@@ -66,7 +65,7 @@ const ProjectsSection = () => {
     {
       title: "AI Image Generator",
       description:
-        "Creative AI image generation platform allowing users to create stunning artwork from text prompts with advanced customization options.",
+        "Creative AI image generation platform allowing users to create stunning artwork from text prompts with advanced feature to share your post with community.",
       technologies: [
         "JavaScript",
         "React",
@@ -85,7 +84,7 @@ const ProjectsSection = () => {
     {
       title: "Foodiverse",
       description:
-        "Modern food delivery application with restaurant discovery, real-time order tracking, and seamless payment integration.",
+        "Build a Food Application, User can search for recipes and get details instruction and ingredient with suggetion of Videos",
       technologies: [
         "JavaScript",
         "React",
