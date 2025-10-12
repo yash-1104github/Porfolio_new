@@ -19,7 +19,7 @@ const ProjectCard = ({ title, description, technologies, image, githubUrl, liveU
         <img
           src={image}
           alt={title}
-          className="w-full h-72 object-contain transition-transform duration-500 group-hover:scale-110"
+          className="w-full h-72 -mt-4 object-contain transition-transform duration-500 group-hover:scale-110"
         />
       </div>
 

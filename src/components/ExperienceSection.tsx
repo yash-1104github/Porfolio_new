@@ -50,7 +50,7 @@ const ExperienceSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gradient mb-4">
             Work Experience
           </h2>
-          <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
+           <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
             My professional journey and the impact I've made
           </p>
         </motion.div>

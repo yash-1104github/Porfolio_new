@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const aiDecoImage = "/aii.jpg";
 const travelBuddyImage = "/m.jpg";
 const safedocImage = "/sage.png";
-const aiImageGenImage = "/a.jpg";
+const aiImageGenImage = "/ai.jpg";
 const foodiverseImage = "/ss.png";
 
 const ProjectsSection = () => {
@@ -48,7 +48,8 @@ const ProjectsSection = () => {
     },
     {
       title: "SafeDoc AI",
-      description: "An application that helps users securely hide sensitive information from documents before sharing or storing them. Uses Python Model to perform Operation on Doc",
+      description:
+        "An application that helps users securely hide sensitive information from documents before sharing or storing them. Uses Python Model to perform Operation on Doc",
       technologies: [
         "JavaScript",
         "React",

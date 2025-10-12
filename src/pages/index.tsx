@@ -5,6 +5,7 @@ import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import OpenSourceContribution from "@/components/OpenSource";
 
 const Index = () => {
 
@@ -14,6 +15,7 @@ const Index = () => {
       <div className="w-full md:max-w-5xl md:mx-auto px-2 ">
         <HeroSection />
         <ExperienceSection />
+        <OpenSourceContribution/>
         <ProjectsSection />
         <ContactSection />
       </div>

@@ -47,6 +47,9 @@ const HeroSection = () => {
     "PostgreSQL",
     "Prisma",
     "ORMs",
+    "Jest",
+    "Vitest",
+    "Cypress",
     "Firebase",
     "Git/GitHub",
     "Tailwind CSS",
@@ -68,7 +71,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8 }}
             className="hidden md:flex justify-center text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight"
           >
-            <span className="text-gradient">YASH GUPTA</span>
+            <span className="text-gradient">Yash Gupta</span>
           </motion.h1>
 
           {/* Typing Animation */}
@@ -102,8 +105,9 @@ const HeroSection = () => {
                 Open Source contributor
               </span>{" "}
               in organisation{" "}
-              <span className="text-black font-semibold">Evu </span> and{" "}
-              <span className="text-black font-semibold">EnCiv </span>
+              <span className="text-black font-semibold">Evu,</span> {" "}
+              <span className="text-black font-semibold">EnCiv,</span>{" "}
+              <span className="text-black font-semibold">GreenStand </span> more.
             </div>
           </motion.div>
 
@@ -190,7 +194,7 @@ const HeroSection = () => {
               asChild
             >
               <a
-                href="https://drive.google.com/file/d/1rl3Py3tmiPsy35LGINg22jxXr6nYyx8_/view?usp=sharing"
+                href="https://drive.google.com/file/d/1WygsOQvvzc0JnzOd3K4Z8Y2Xb_saBwd_/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

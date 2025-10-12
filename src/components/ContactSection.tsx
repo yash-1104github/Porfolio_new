@@ -84,10 +84,6 @@ const ContactSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gradient mb-4">
             Get In Touch
           </h2>
-          <p className="hidden md:flex md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            I'm always open to exploring new opportunities and discussing how my
-            skills can contribute to innovative projects
-          </p>
         </motion.div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 -mt-6 md:mt-0">
