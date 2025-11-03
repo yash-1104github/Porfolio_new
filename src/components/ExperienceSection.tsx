@@ -15,7 +15,7 @@ const ExperienceSection = () => {
       company: "Material Depot (YC 2021)",
       role: "Software Developer",
       duration: "May 2025 - September 2025",
-      location: "Remote",
+      location: "Bangalore, India",
       achievements: [
         "Developed static pages for the company, enhancing UI/UX and page responsiveness integrated TanStack Query to enable server-side rendering, decreasing load time from 7 sec to 2 sec",
         "Enhanced product dashboard, improved data comparison functionality showing warnings, updated values errors reducing data entry team workflow time by 55% through automation of different checks.",

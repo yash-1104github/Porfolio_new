@@ -5,6 +5,7 @@ import TypingAnimation from "./TypingAnimation";
 import { motion } from "framer-motion";
 
 const HeroSection = () => {
+
   const socialLinks = [
     {
       icon: Github,
@@ -24,7 +25,6 @@ const HeroSection = () => {
   ];
 
   const technologies = [
-    "JavaScript",
     "Python",
     "TypeScript",
     "React",
@@ -32,7 +32,10 @@ const HeroSection = () => {
     "Next.js",
     "Node.js",
     "Express.js",
-    "RESTful API",
+    "DSA(C++)",
+    "RAG Architecture",
+    "MCP Protocol",
+    "REST API",
     "Fast API",
     "Docker",
     "AWS",
@@ -41,20 +44,22 @@ const HeroSection = () => {
     "Kubernetes",
     "Redis",
     "WebSocket",
-    "Render",
+    "Server Sent Events",
     "MySQL",
     "MongoDB",
     "PostgreSQL",
+    "Firebase",
+    "Pincone",
+    "Astra DB",
+    "Vector Databases",
     "Prisma",
     "ORMs",
     "Jest",
     "Vitest",
     "Cypress",
-    "Firebase",
     "Git/GitHub",
     "Tailwind CSS",
     "Material UI",
-    "DSA(C++)",
   ];
 
   return (
@@ -93,7 +98,7 @@ const HeroSection = () => {
           >
             <div className="text-base md:text-xl text-muted-foreground leading-normal md:leading-relaxed flex-1 justify-around text-justify px-4 font-normal">
               I am a B.Tech Graduate in Computer Science and Engineering with{" "}
-              <span className="text-black font-semibold">6</span> months of
+              <span className="text-black font-semibold">5</span> months of
               experience as a Software Developer, have experience working in
               Agile methodology with daily stand-ups. Worked in{" "}
               <span className="text-black font-semibold">Frontend </span> and{" "}
@@ -107,7 +112,7 @@ const HeroSection = () => {
               in organisation{" "}
               <span className="text-black font-semibold">Evu,</span> {" "}
               <span className="text-black font-semibold">EnCiv,</span>{" "}
-              <span className="text-black font-semibold">GreenStand </span> more.
+              <span className="text-black font-semibold">GreenStand </span>and more.
             </div>
           </motion.div>
 

@@ -28,8 +28,8 @@ const ContactSection = () => {
   const contactInfo = [
     {
       icon: MapPin,
-      title: "Address",
-      details: "Agra, Uttar Pradesh 283111",
+      title: "Current Location",
+      details: "560066 , Whitefield, Bangalore, Karnataka",
     },
     {
       icon: Phone,

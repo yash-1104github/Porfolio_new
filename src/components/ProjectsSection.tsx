@@ -7,9 +7,29 @@ const travelBuddyImage = "/m.jpg";
 const safedocImage = "/sage.png";
 const aiImageGenImage = "/ai.jpg";
 const foodiverseImage = "/ss.png";
+const transYobeImage = "/transyobe.png";
 
 const ProjectsSection = () => {
   const projects = [
+      {
+      title: "TRANS YOBE",  
+      description:
+        "TransYobe is an intelligent web app that lets users chat with an AI assistant to understand YouTube videos instantly. Powered by RAG and Gemini AI, it provides real-time answers and insights without needing to watch the full video.",
+      technologies: [
+        "TypeScript",
+        "Retrieval Augmented Generation (RAG)",
+        "React",
+        "Node.js",
+        "Pincone",
+        "Google Gemini AI",
+        "JWT Authentication",
+        "Docker",
+        "Tailwind CSS",
+      ],
+      image: transYobeImage,
+      githubUrl: "https://github.com/yash-1104github/TransYobe/tree/main",
+      liveUrl: "https://trans-yobe.vercel.app/",
+    },
     {
       title: "AI DECO",
       description:
@@ -21,7 +41,7 @@ const ProjectsSection = () => {
         "React",
         "Node.js",
         "PostgreSQL",
-        "Clerk",
+        "Clerk Authentication",
         "Prisma ORM",
       ],
       image: aiDecoImage,
