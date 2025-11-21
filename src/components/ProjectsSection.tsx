@@ -12,9 +12,9 @@ const transYobeImage = "/transyobe.png";
 const ProjectsSection = () => {
   const projects = [
       {
-      title: "TRANS YOBE",  
+      title: "TRANSYOBE",  
       description:
-        "TransYobe is an intelligent web app that lets users chat with an AI assistant to understand YouTube videos instantly. Powered by RAG and Gemini AI, it provides real-time answers and insights without needing to watch the full video.",
+        "TransYobe is web app that lets users chat with an AI assistant. Powered by RAG and Gemini AI, it provides realtime answers and insights of videos",
       technologies: [
         "TypeScript",
         "Retrieval Augmented Generation (RAG)",

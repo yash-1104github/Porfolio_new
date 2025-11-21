@@ -34,13 +34,15 @@ const HeroSection = () => {
     "Express.js",
     "DSA(C++)",
     "RAG Architecture",
-    "MCP Protocol",
+    "MCP Server",
     "REST API",
     "Fast API",
     "Docker",
     "AWS",
     "Google Cloud",
-    "CI/CD",
+    "Jenkins",
+    "Github Actions",
+    "Argo CD",
     "Kubernetes",
     "Redis",
     "WebSocket",
@@ -67,8 +69,8 @@ const HeroSection = () => {
       id="home"
       className="min-h-screen flex items-center justify-center relative overflow-hidden"
     >
-      <div className="flex w-screen md:mt-16 md:mx-auto md:px-6 text-center relative z-10">
-        <div className="w-full md:max-w-6xl mx-auto space-y-8 my-16 md:my-16 lg:my-6">
+      <div className="flex w-full md:mt-16 md:mx-auto md:px-6 text-center relative z-10">
+        <div className="w-full   mx-auto space-y-8 my-16 md:my-16 lg:my-6">
           {/* Main Heading */}
           <motion.h1
             initial={{ opacity: 0, y: -50 }}
@@ -94,10 +96,10 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="max-w-6xl mx-auto space-y-6"
+            className="w-full mx-auto space-y-6"
           >
-            <div className="text-base md:text-xl text-muted-foreground leading-normal md:leading-relaxed flex-1 justify-around text-justify px-4 font-normal">
-              I am a B.Tech Graduate in Computer Science and Engineering with{" "}
+            <div className="text-base md:text-xl leading-normal md:leading-relaxed flex-1 justify-around text-justify px-4 font-normal">
+              Hey Everyone, I am a B.Tech Graduate in Computer Science and Engineering with{" "}
               <span className="text-black font-semibold">5</span> months of
               experience as a Software Developer, have experience working in
               Agile methodology with daily stand-ups. Worked in{" "}

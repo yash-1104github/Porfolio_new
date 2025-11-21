@@ -12,7 +12,7 @@ const Index = () => {
   return (
     <div className="h-full w-full bg-background text-foreground ">
       <Navigation />
-      <div className="w-full md:max-w-5xl md:mx-auto px-2 ">
+      <div className="w-full md:max-w-7xl md:mx-auto px-2 ">
         <HeroSection />
         <ExperienceSection />
         <OpenSourceContribution/>

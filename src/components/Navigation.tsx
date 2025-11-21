@@ -35,7 +35,7 @@ const Navigation = () => {
           className="text-xl md:text-4xl font-bold text-gradient cursor-pointer"
           onClick={() => scrollToSection("home")}
         >
-          Hi Everyone
+          Portfolio
         </div>
 
         {/* Desktop Menu */}

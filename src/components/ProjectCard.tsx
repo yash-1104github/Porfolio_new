@@ -14,12 +14,12 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ title, description, technologies, image, githubUrl, liveUrl }: ProjectCardProps) => {
   return (
-    <Card className="group overflow-hidden glass border-glass-border/30 hover:border-primary/50 transition-all duration-500 hover:shadow-elegant hover:-translate-y-2">
+    <Card className="group overflow-hidden glass border-glass-border/30 hover:border-primary/50 hover:shadow-elegant ">
       <div className="relative overflow-hidden object-contain">
         <img
           src={image}
           alt={title}
-          className="w-full h-72 -mt-4 object-contain transition-transform duration-500 group-hover:scale-110"
+          className="w-full h-72  object-fill"
         />
       </div>
 
