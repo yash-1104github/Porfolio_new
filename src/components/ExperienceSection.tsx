@@ -11,30 +11,43 @@ import { motion } from "framer-motion";
 
 const ExperienceSection = () => {
   const experiences = [
-    {
-      company: "Material Depot (YC 2021)",
-      role: "Software Developer",
-      duration: "May 2025 - September 2025",
-      location: "Bangalore, India",
-      achievements: [
-        "Developed static pages for the company, enhancing UI/UX and page responsiveness integrated TanStack Query to enable server-side rendering, decreasing load time from 7 sec to 2 sec",
-        "Enhanced product dashboard, improved data comparison functionality showing warnings, updated values errors reducing data entry team workflow time by 55% through automation of different checks.",
-        "Upgraded product availability checks in procurement dashboard, eliminating need for manual selecting the vendors and warehouse automate this process though functions lead to faster process by 40%",
-        "Implemented authentication to secure APIs, Built multi user role based server-client forms for Customer, Sales, Retailer. Worked in React.js, Next.js, TanStack Query, TypeScript, Node.js, REST APIs, Tailwind CSS.",
-      ],
-    },
-    {
-      company: "OctaNet Pvt Ltd",
-      role: "Web Developer",
-      duration: "May 2024 - July 2024",
-      location: "Remote",
-      achievements: [
-        "Spearheaded a development team to build applications that retrieve information about various genres of books and comics, and used axios library for fetching data, created ContextAPI hook to store it.",
-        "Collaborated with the testing team to perform API testing using Postman for different test cases resulting in 91% success rate.",
-        "Participate in a team meeting for code review and collaborating closely with other engineers. Worked with technologies like AWS to host server instace, REST APIs, React, JavaScript, Material UI",
-      ],
-    },
-  ];
+  {
+    company: "TatvaOps",
+    role: "Software Developer",
+    duration: "January 2026 - Present",
+    location: "Bangalore, India",
+    achievements: [
+      "Leading the frontend development for the project management platform, revamped milestone functionality reducing manual work by 40% and added 25+ master tables in the admin dashboard each handling 200+ rows of data.",
+      "Built a quote form used by 200+ vendors with new features like reviews & ratings, role based project workflow, multiple payment methods, and multi vendor selection increasing user satisfaction by 45%.",
+      "Integrated Google Analytics for vendor lead tracking and implemented SEO friendly metadata and sitemaps, resulting in a 50% growth in platform traffic.",
+      "Worked with Next.js, React, TypeScript, MongoDB, Redux, Tailwind CSS, and Cursor AI to build scalable frontend systems.",
+    ],
+  },
+  {
+    company: "Material Depot",
+    role: "Software Developer",
+    duration: "June 2025 - September 2025",
+    location: "Bangalore, India",
+    achievements: [
+      "Developed static and dynamic pages and integrated TanStack Query with server side rendering, decreasing data load time by 60% and improving Lighthouse performance by 38%.",
+      "Revamped the product dashboard used for managing 10,000+ items in the data entry pipeline by automating validation workflows with intelligent warnings, error detection, and data comparison systems reducing manual work by 55%.",
+      "Improved procurement automation by redesigning product availability checks, removing manual vendor and warehouse selection and speeding workflows by 40%.",
+      "Built scalable multi role form systems for Customer, Sales, and Retailer with permission-based logic used by 1,500+ users improving team operations by 33%.",
+    ],
+  },
+  {
+    company: "OctaNet Pvt Ltd",
+    role: "Web Developer",
+    duration: "May 2024 - July 2024",
+    location: "Remote",
+    achievements: [
+      "Led development of applications to retrieve and display information about books and comics using Axios for API fetching and Context API for state management.",
+      "Collaborated with the testing team to perform API testing using Postman for multiple scenarios achieving a 91% successful test coverage.",
+      "Participated in code reviews and engineering discussions while working with AWS server instances, REST APIs, React, JavaScript, and Material UI.",
+    ],
+  },
+];
+
 
   return (
     <section id="experience" className="py-20 relative">

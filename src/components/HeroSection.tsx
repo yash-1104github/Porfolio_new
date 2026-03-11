@@ -30,6 +30,7 @@ const HeroSection = () => {
     "React",
     "React-Native",
     "Next.js",
+    "Redux",
     "Node.js",
     "Express.js",
     "DSA(C++)",
@@ -99,10 +100,10 @@ const HeroSection = () => {
             className="w-full mx-auto space-y-6"
           >
             <div className="text-base md:text-xl leading-normal md:leading-relaxed flex-1 justify-around text-justify px-4 font-normal">
-              Hey Everyone, I am a B.Tech Graduate in Computer Science and Engineering with{" "}
-              <span className="text-black font-semibold">5</span> months of
+              Hello World! I'm Yash Gupta with {" "}
+              <span className="text-black font-semibold">8</span> months of
               experience as a Software Developer, have experience working in
-              Agile methodology with daily stand-ups. Worked in{" "}
+              Agile methodology with daily stand ups. Worked in{" "}
               <span className="text-black font-semibold">Frontend </span> and{" "}
               <span className="text-black font-semibold">Backend, </span>{" "}
               <span className="text-black font-semibold">DevOps</span>{" "}
